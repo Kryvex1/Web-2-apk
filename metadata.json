@@ -1,0 +1,6 @@
+{
+  "name": "Web2APK Generator Pro",
+  "description": "Native Android builder converting Web URLs and assets into standalone ready-to-install APKs with offline caching, custom permissions, and splash themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

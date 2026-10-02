@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.82"
+        android:scaleY="0.82">
+        
+        <!-- Glowing outer hex badge -->
+        <path
+            android:fillColor="#1E293B"
+            android:strokeColor="#6366F1"
+            android:strokeWidth="2.5"
+            android:pathData="M54,20 L80,34 L80,74 L54,88 L28,74 L28,34 Z" />
+
+        <!-- Top Web/Globe arcs -->
+        <path
+            android:fillAlpha="0.15"
+            android:fillColor="#38BDF8"
+            android:pathData="M54,26 C68,26 76,38 76,54 C76,70 68,82 54,82 C40,82 32,70 32,54 C32,38 40,26 54,26 Z" />
+
+        <!-- Globe Grid latitude & longitude lines -->
+        <path
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="1.6"
+            android:pathData="M31,54 L77,54" />
+        <path
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="1.4"
+            android:pathData="M35,42 C41,42 67,42 73,42" />
+        <path
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="1.4"
+            android:pathData="M35,66 C41,66 67,66 73,66" />
+        <path
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="1.6"
+            android:pathData="M54,26 C62,35 64,45 64,54 C64,63 62,73 54,82" />
+        <path
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="1.6"
+            android:pathData="M54,26 C46,35 44,45 44,54 C44,63 46,73 54,82" />
+
+        <!-- Android Robot builder accent -->
+        <!-- Android Head -->
+        <path
+            android:fillColor="#22C55E"
+            android:pathData="M44,46 C44,40.5 48.5,36 54,36 C59.5,36 64,40.5 64,46 Z" />
+        <!-- Antennas -->
+        <path
+            android:strokeColor="#22C55E"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:pathData="M47,38 L43,33" />
+        <path
+            android:strokeColor="#22C55E"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:pathData="M61,38 L65,33" />
+        <!-- Eyes -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M48,42a1.2,1.2 0 1,0 2.4,0a1.2,1.2 0 1,0 -2.4,0" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M57.6,42a1.2,1.2 0 1,0 2.4,0a1.2,1.2 0 1,0 -2.4,0" />
+
+        <!-- APK Box / Gear / Arrow overlay -->
+        <path
+            android:fillColor="#818CF8"
+            android:pathData="M42,50 L66,50 L66,70 C66,72.2 64.2,74 62,74 L46,74 C43.8,74 42,72.2 42,70 Z" />
+
+        <!-- Downward build/download arrow inside APK -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,53 L54,67 M49,62 L54,67 L59,62"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+            
+        <!-- Sparkle accent -->
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M72,30 L73.5,34 L77.5,35.5 L73.5,37 L72,41 L70.5,37 L66.5,35.5 L70.5,34 Z" />
+    </group>
+</vector>
